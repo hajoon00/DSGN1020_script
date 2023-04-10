@@ -1,0 +1,80 @@
+
+.row {
+	margin:2rem;
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	z-index:1;
+	 font-family:Helvetica;
+
+}
+.box {
+	width: 100px;
+	height: 60px;
+	margin: 1rem;
+	border: 3px dotted transparent;
+	z-index:1;
+}
+.full {
+	line-height: 60px;
+	font-size: 25px;
+	text-align: center;
+	background-color: #fde74c;
+		z-index:1;
+}
+.empty {
+	background-color: #5b7c99;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	z-index:1;
+}
+label {
+	width: 106px;
+	margin: 0 1rem;
+	text-align: center;
+		z-index:1;
+}
+
+html{
+	background-image: url('https://media.istockphoto.com/id/1365114482/vector/bathroom-graphic-home-interior-black-white-sketch-illustration-vector.jpg?s=612x612&w=0&k=20&c=Pw0pyuKFLQOT8OT3pMfLmbbJiNN7-iAelDWEPYfQLi8=');
+    background-repeat: no-repeat;
+background-size: 110% 350%;
+	  background-position: center;
+}
+
+#whitebag{
+    top: 40px;
+	left: 10%;
+	width: 80%;
+	height: 400px;
+	background-color:white;
+	position: fixed;
+    z-index:0;
+	opacity:0.75;
+}
+
+#editbutton{
+	    z-index:1;
+}
+
+#goback {
+    font-family: Helvetica;
+    font-size: large;
+    height: 100px;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+}
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: grey;
+  }
