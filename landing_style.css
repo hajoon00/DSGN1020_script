@@ -1,0 +1,81 @@
+.door {
+    width: 25vw;
+    height: 60vh;
+    
+}
+
+#kitchenDoor:hover {
+    background-image: url("OpenDoor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bathroomDoor:hover {
+    background-image: url("OpenDoor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#yardDoor:hover {
+    background-image: url("OpenDoor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#kitchenDoor {
+    background-image: url("Door1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+#bathroomDoor {
+    background-image: url("Door2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#yardDoor {
+    background-image: url("Door3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#doors{
+    display: flex;
+    gap: 10vw;
+}
+
+#landing {
+    width:100%;
+    text-align: center;
+    padding: 50px;
+    font-family:Helvetica;
+    font-size: large;
+}
+
+#script {
+    width: 100vw;
+}
+#scriptlink {
+    position: relative;
+    
+    left: 50%;
+    font-family:Helvetica;
+}
+a#scriptlink:link, a#scriptlink:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a#scriptlink:hover, a#scriptlink:active {
+    background-color: grey;
+  }
+
+
